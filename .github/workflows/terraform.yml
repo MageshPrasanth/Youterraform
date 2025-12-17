@@ -16,7 +16,7 @@ jobs:
       #AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
 
     defaults:
-      run:
+      run: 
         working-directory: infra/
 
     steps:

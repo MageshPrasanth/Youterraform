@@ -53,7 +53,7 @@ variable "alb_name" {
 }
 variable "key_name" {
   type    = string
-  default = "Prasanna"
+  default = "NewKeypair-01"
 }
 
 variable "ec2_count" {
